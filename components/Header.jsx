@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button"
 import Nav from "./nav";
 import MobileNav from "./MobileNav";
 
@@ -20,7 +20,7 @@ const Header = () => {
             <div className="hidden xl:flex item-center gap-8">
               <Nav />
               <Link href="/contact">
-                <button> Hire me</button>
+                <Button> Hire me</Button>
               </Link>
             </div>
 
