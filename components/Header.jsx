@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { Button } from "@/components/ui/button"
-import Nav from "./nav";
+import Nav from "./Nav.jsx";
 import MobileNav from "./MobileNav";
 
 const Header = () => {
